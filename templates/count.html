@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>count result</title>
+</head>
+<body>
+        <h1>your total input word is {{ wordcount }}</h1>
+
+
+        <h2>word dictionary is {{ worddictionary }} </h2>
+
+        {% for i, j in worddictionary %}
+        
+        {{ i }} : {{ j }}
+        <br>
+        {% endfor %}
+</body>
+</html>
